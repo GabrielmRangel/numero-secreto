@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
 
 :root{
     --font-family: 'Montserrat', sans-serif;
@@ -43,3 +43,23 @@ h3{
     margin: 20px;
 }
 
+.btn-jogar{
+    margin-top: 20px;
+    padding: 10px 16px;
+    border: 0;
+    border-radius: 6px;
+    background-color: var(--primary-color);
+    font-family: var(--font-family);
+    font-weight: bolder;
+    font-size: 1.1rem;
+    color: var(--bg-color);
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: all .1s;
+}
+
+.btn-jogar:hover{
+    transform: scale(1.1);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all .1s;
+}
