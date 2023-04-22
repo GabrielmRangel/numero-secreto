@@ -63,3 +63,7 @@ h3{
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
     transition: all .1s;
 }
+
+.btn-red{
+    color: #B32C12;
+}
